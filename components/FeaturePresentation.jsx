@@ -13,9 +13,10 @@ export default class FeaturePresentation extends React.Component {
 		// 	mime: 'video/mp4',
 		//  poster: 'poster.jpg'
 		// }
+		let articlesList = Array.isArray(this.props.articlesList) ? (<ArticleList articles={this.props.articles} />) : null
 		return (
 			<div className="feature-presentation">
-				<ArticleList articles={this.props.articles} />
+				{articlesList}
 				<VideoPlayer type="youtube" youtubeId="JdrdkwnJihQ" />
 			</div>
 		)

@@ -9,6 +9,7 @@ export default class ArticleList extends React.Component {
 		let articlePreviews = this.props.articles.map((article, i) => {
 			return React.createElement(ArticlePreview, Object.assign({
 				key: i,
+				staticHeight: this.props.staticHeight,
 				inline
 			}, article))
 		})

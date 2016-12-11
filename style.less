@@ -66,6 +66,7 @@ header {
 
 		div.article-preview {
 			display: block;
+			margin: 0 auto;
 
 			.small-screen({
 				display: inline-block;
@@ -163,20 +164,24 @@ div.header-small {
 div.article-preview-list {
 	padding-left: 20px;
 	padding-right: 20px;
-	
 
 	div.article-preview {
+		vertical-align: top;
 		/*border: 5px solid @off-white-color;*/
 		/*height: 300px;*/
 		width: 350px;
 		background-color: white;
 		color: black;
 		display: inline-block;
-		margin: 0 auto;
+		margin: auto 20px;
 		padding-bottom: 10px;
 		border-radius: 0 0 10px 10px;
 		text-align: center;
 		margin-bottom: 20px;
+
+		&.static-height {
+			height: 320px;
+		}
 	}
 
 	div.article-preview img {
