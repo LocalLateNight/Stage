@@ -2346,7 +2346,7 @@ request@^2.79.0:
     is-typedarray "~1.0.0"
     isstream "~0.1.2"
     json-stringify-safe "~5.0.1"
-    mime-types "~2.1.7"
+    mime-types "^1.4.1"
     oauth-sign "~0.8.1"
     qs "~6.3.0"
     stringstream "~0.0.4"
