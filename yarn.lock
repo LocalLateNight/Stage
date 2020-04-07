@@ -13,7 +13,7 @@ align-text@^0.1.1, align-text@^0.1.3:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/align-text/-/align-text-0.1.4.tgz#0cd90a561093f35d0a99256c22b7069433fad117"
   dependencies:
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
     longest "^1.0.1"
     repeat-string "^1.5.2"
 
@@ -1445,7 +1445,7 @@ is-number@^2.0.2, is-number@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-2.1.0.tgz#01fcbbb393463a548f2f466cce16dece49db908f"
   dependencies:
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
 
 is-plain-obj@^1.0.0:
   version "1.1.0"
@@ -1549,9 +1549,9 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.3.6"
 
-kind-of@^3.0.2:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.1.0.tgz#475d698a5e49ff5e53d14e3e732429dc8bf4cf47"
+kind-of@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#475d698a5e49ff5e53d14e3e732429dc8bf4cf47"
   dependencies:
     is-buffer "^1.0.2"
 
@@ -1640,7 +1640,7 @@ micromatch@^2.1.5:
     filename-regex "^2.0.0"
     is-extglob "^1.0.0"
     is-glob "^2.0.1"
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
     normalize-path "^2.0.1"
     object.omit "^2.0.0"
     parse-glob "^3.0.4"
@@ -1657,7 +1657,7 @@ minimatch@^3.0.4:
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
     brace-expansion "^1.1.7"
-    
+
 minimist@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.3.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
@@ -2171,7 +2171,7 @@ randomatic@^3.0.0:
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-3.0.0.tgz#110dcabff397e9dcff7c0789ccc0a49adf1ec5bb"
   dependencies:
     is-number "^2.0.2"
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
 
 rc@~1.1.6:
   version "1.1.6"
